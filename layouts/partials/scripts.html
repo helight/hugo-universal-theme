@@ -9,7 +9,7 @@
 {{ if .Site.Params.googleMapsApiKey }}
 <script src="//maps.googleapis.com/maps/api/js?key={{.Site.Params.googleMapsApiKey}}&v=3.exp"></script>
 {{ else }}
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<!--script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script-->
 {{ end }}
 <script src="{{ "js/hpneo.gmaps.js" | relURL }}"></script>
 <script src="{{ "js/gmaps.init.js" | relURL }}"></script>
