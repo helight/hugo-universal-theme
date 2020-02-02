@@ -18,7 +18,7 @@
         <div id="content">
             <div class="container">
 
-                <div class="row">
+              <div class="row">
 
                     <!-- *** LEFT COLUMN *** -->
 
@@ -80,11 +80,6 @@
                       {{ .Content }}
                     </div>
                     <!-- /#post-content -->
-                    {{ if .Site.DisqusShortname }}
-                    <div id="comments">
-                        {{ template "_internal/disqus.html" . }}
-                    </div>
-                    {{ end }}
                     {{ if .Site.Params.share }}
                     <div id="share">
                     {{ partial "widgets/share.html" . }}
@@ -103,8 +98,10 @@
                     {{ end }}
                     </ul>
 
+                    <!-- gitalk comments -->                        
+                    {{ partial "comments.html" . }}
 
-                    </div>
+                </div>
                     <!-- /#blog-post -->
 
                     <!-- *** LEFT COLUMN END *** -->
