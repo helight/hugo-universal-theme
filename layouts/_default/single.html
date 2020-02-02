@@ -48,11 +48,11 @@
                         | {{ i18n "reviewer" }} {{ .Params.reviewer }}
                         {{ end }}
                         |
-                        {{ .FuzzyWordCount }}{{ i18n "words" }} | {{ i18n "readInAbout" }}{{ .ReadingTime }}{{ i18n "minute" }}
-                        </div>
+                        {{ .FuzzyWordCount }}{{ i18n "words" }} | {{ i18n "readInAbout" }}{{ .ReadingTime }}{{ i18n "minute" }} |
+
                         <!-- show categories -->
                         {{ if isset .Params "categories" }}
-                        <div class="author-category">
+
                         {{ if .Params.originallink }}
                         <a href="{{ .Params.originallink }}">{{ i18n "originallink" }}</a>
                         |
