@@ -68,8 +68,9 @@
                         {{ range .Params.tags }}
                         <a style="text-transform:capitalize" href="{{ $.Site.LanguagePrefix | relURL }}tags/{{ . | urlize }}/"><i>#{{ . }}</i></a>
                         {{ end }}
-                        </div>
+                        
                         {{ end }}
+                      </div>
                         {{ if .Site.Params.share }}
                         <div id="share">
                         {{ partial "widgets/share.html" . }}
@@ -101,7 +102,7 @@
                     <!-- gitalk comments    -->                     
                     {{ partial "comments.html" . }}
 
-                </div>
+                    </div>
                     <!-- /#blog-post -->
 
                     <!-- *** LEFT COLUMN END *** -->
@@ -121,7 +122,7 @@
 
                     <!-- *** RIGHT COLUMN END *** -->
 
-                </div>
+              </div>
                 <!-- /.row -->
 
             </div>
