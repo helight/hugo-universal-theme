@@ -985,7 +985,6 @@ fieldset[disabled] .btn-template-primary.active {
   border-radius: 0;
   color: var(--primary-accent);
   margin: 5px 5px 5px 0;
-  text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
   font-size: 12px;
@@ -1647,7 +1646,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-image-text .content h3,
 .box-image-text .content h4 {
-  text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
   font-weight: 800;
