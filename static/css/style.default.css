@@ -2065,7 +2065,6 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 60px;
 }
 #blog-listing-medium .post h2 {
-  text-transform: uppercase;
   margin: 0 0 10px;
   font-size: 24px;
   letter-spacing: 0.08em;
