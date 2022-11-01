@@ -112,7 +112,6 @@ div.section {
   margin-bottom: 0;
   padding-bottom: 10px;
   vertical-align: middle;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 .heading h1 i[class^="fa"],
@@ -187,7 +186,6 @@ ul.list-style-none {
 }
 .pages-listing .item h3 {
   font-size: 18px;
-  text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 0.08em;
 }
@@ -985,7 +983,6 @@ fieldset[disabled] .btn-template-primary.active {
   border-radius: 0;
   color: var(--primary-accent);
   margin: 5px 5px 5px 0;
-  text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
   font-size: 12px;
@@ -1206,7 +1203,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h1 {
   font-weight: 700;
-  text-transform: uppercase;
   font-size: 46px;
   letter-spacing: 0.08em;
 }
@@ -1217,7 +1213,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .home-carousel h2 {
   font-weight: 700;
-  text-transform: uppercase;
   font-size: 40px;
   letter-spacing: 0.08em;
 }
@@ -1226,7 +1221,6 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 18px;
   font-weight: 700;
   padding: 0;
-  text-transform: uppercase;
   letter-spacing: 0.10em;
 }
 @media (max-width: 991px) {
@@ -1647,7 +1641,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 .box-image-text .content h3,
 .box-image-text .content h4 {
-  text-transform: uppercase;
   line-height: 1.5;
   color: #555555;
   font-weight: 800;
@@ -1750,7 +1743,6 @@ fieldset[disabled] .btn-template-primary.active {
 }
 #heading-breadcrumbs h1 {
   color: #333333;
-  text-transform: uppercase;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -2065,7 +2057,6 @@ fieldset[disabled] .btn-template-primary.active {
   margin-bottom: 60px;
 }
 #blog-listing-medium .post h2 {
-  text-transform: uppercase;
   margin: 0 0 10px;
   font-size: 24px;
   letter-spacing: 0.08em;
@@ -2079,7 +2070,6 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-listing-medium .post .author-category {
   float: left;
   color: #999999;
-  text-transform: uppercase;
   font-weight: 300;
   font-size: 12px;
   letter-spacing: 0.08em;
